@@ -1,0 +1,28 @@
+.fm-gallery-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.category-item  {
+	font-family: Arial;
+	width: 100%;
+
+	@include media(480px) {
+		@include matrix(2,2%)
+	}
+
+	 @include media(780px) {
+		@include matrix(3,2%)
+	}
+
+	@include media(1027px) {
+		@include matrix(4,2%)
+	}
+}
+
+.category-img {
+	width: 100%;
+}

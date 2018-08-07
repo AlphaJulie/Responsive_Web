@@ -1,0 +1,19 @@
+@mixin media($width) {
+
+	@media only screen and (min-width: $width) {
+		@content
+	}
+}
+
+@mixin matrix($numCol, $colMargin) {
+
+	width: ((100% - (($numCol - 1) * $colMargin)) / $numCol);
+
+	&:nth-child(1n) {
+		margin-right: $colMargin;
+	}
+
+	&:nth-child(#{$numCol}n) {
+		margin-right: 0;
+	}
+}

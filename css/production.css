@@ -1,0 +1,122 @@
+.img-banner {
+        max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.banner {
+    margin-bottom: -4px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.nj-model-name-wrapper {
+    background-color: #333;
+    padding: 1px 0px;
+    color: #fff;
+} 
+.nav-jump {
+    background-color: #000;
+}
+.nj-list {
+    margin: 0;
+    padding: 0;
+}
+.nj-item {
+    list-style: none;
+    float: left;
+}
+.nj-link {
+    font-family: 'Roboto Bold', 'Helvetica', 'Arial', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 20px 18px 20px 0;
+}
+.fm-heading {
+  font-size: 24px;
+  line-height: 12px;
+  padding: 104px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 480px) {
+  .fm-heading {
+    font-size: 40px;
+    line-height: 12px;
+    padding: 54px 0 0 0;
+  }
+}
+
+.overview-text {
+    font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    max-width: 900px;
+}
+
+video.fm-video {
+  max-width: 100%;
+}
+@media only screen and (min-width: 480px) {
+  video.fm-video {
+    width: -webkit-fill-available;
+  }
+}
+.fm-gallery-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.category-item {
+  font-family: Arial;
+  width: 100%;
+}
+@media only screen and (min-width: 480px) {
+  .category-item {
+    width: 49%;
+  }
+  .category-item:nth-child(1n) {
+    margin-right: 2%;
+  }
+  .category-item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .category-item {
+    width: 32%;
+  }
+  .category-item:nth-child(1n) {
+    margin-right: 2%;
+  }
+  .category-item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 1027px) {
+  .category-item {
+    width: 23.5%;
+  }
+  .category-item:nth-child(1n) {
+    margin-right: 2%;
+  }
+  .category-item:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+.category-img {
+  width: 100%;
+}

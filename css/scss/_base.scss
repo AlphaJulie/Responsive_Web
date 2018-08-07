@@ -1,0 +1,73 @@
+.img-banner {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.banner {
+    margin-bottom: -4px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.nj-model-name-wrapper {
+    background-color: #333;
+    padding: 1px 0px;
+    color: #fff;
+} 
+.nav-jump {
+    background-color: #000;
+}
+.nj-list {
+    margin: 0;
+    padding: 0;
+}
+.nj-item {
+    list-style: none;
+    float: left;
+}
+.nj-link {
+    font-family: 'Roboto Bold', 'Helvetica', 'Arial', sans-serif;
+   font-weight: bolder;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 20px 18px 20px 0;
+}
+.fm-heading {
+    font-size: 24px;
+    line-height: 12px;
+    padding: 104px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    	@include media(480px) {
+		   font-size: 40px;
+            line-height: 12px;
+            padding: 54px 0 0 0;
+	}
+}
+
+.overview-text {
+    font-family: 'Roboto Regular', 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    max-width: 900px;
+}
+
+video.fm-video {
+    max-width: 100%;
+
+    @include media(480px) {
+		 width: -webkit-fill-available;
+	}
+}

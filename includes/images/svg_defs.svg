@@ -1,0 +1,6 @@
+<svg width="0" height="0" viewBox="0 0 0 0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;” >
+<symbol id="icon-zoom" viewBox="0 0 40 40">
+		<desc>Icon of Four Arrows to Indicate Zoom</desc>
+		<path d="M0,0v2v12h4V6.8l9.2,9.2l2.8-2.8L6.8,4H14V0H2L0,0L0,0z M26,0v4h7.2L24,13.2l2.8,2.8L36,6.8V14h4V2V0h-2L26,0L26,0z M13.2,24L4,33.2V26H0v12v2h2h12v-4H6.8l9.2-9.2L13.2,24z M26.8,24L24,26.8l9.2,9.2H26v4h12h2v-2V26h-4v7.2L26.8,24z"/>
+	</symbol>
+</svg>
